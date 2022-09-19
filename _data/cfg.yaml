@@ -1,0 +1,38 @@
+#source video
+source: "../_data/video/seattle11.mp4"
+fps : 60
+quit: "p" #nothing
+#system error: value of variance caused by camera
+se: 0.1 #10pixil
+#bounding box A-B-C-D -> top left | top right | bottom right | bottom left
+# bounding_box: {'A':[1100, 540], 'B':[1380, 565], 
+#             'D':[726, 805], 'C':[1230, 930]}
+bounding_box: {'A':[1161, 501], 'B':[1402, 519], 
+            'D':[806, 749], 'C':[1263, 850]}
+real_distances: {'A-D': 31}
+#########################################
+#                                       #
+#       CONFIG FOR SOLUTION 1           #
+#                                       #
+#########################################
+#https://github.com/ewigspace1910/Paper-Notes-Deep-Learning/blob/main/Computer%20Vision/5.Velocity%20Estimation/aicity18-Traffic-Flow-Analysis.md
+#real coordinates
+real_coordinates: {'A':[42.4920007,-90.7236153], 'D': [42.4920477,-90.7230853]}
+
+
+
+
+#########################################
+#                                       #
+#       CONFIG FOR SOLUTION 2           #
+#                                       #
+##########################################
+#https://github.com/ewigspace1910/Paper-Notes-Deep-Learning/blob/main/Computer%20Vision/5.Velocity%20Estimation/aicity18-Semi-Automatic.md
+#parallel line
+lseg-points-up : [[1138, 590], [1249,605]]
+lseg-points-dw : [[770, 918], [962, 980]]  # [282, 592] #(x,y) is a point in parallel line
+interval: 10 #each 10 frame -> recompute
+#scale recovery
+
+sx : 1          #sx = W/w
+sy : 1          #sy = 
