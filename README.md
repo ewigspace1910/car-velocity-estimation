@@ -2,14 +2,7 @@
 
 <br>
 <hr />
-
-
-https://github.com/ewigspace1910/car-velocity-estimation/blob/main/_data/run/seattle11.mp4?width=200&height=200
-
-<!-- <p align="center">
-  <a href="https://youtu.be/3-ikI6ZxBZA" target="_blank"><img src="internals/img/subtitler-intro-imgur.gif"></a>
-</p> -->
-
+https://user-images.githubusercontent.com/53305399/190944660-a3bd6704-dbd1-4c5e-8bab-5bea9a422de5.mp4?width=200&height=200
 <hr />
 <br />
 
