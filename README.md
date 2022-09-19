@@ -1,10 +1,8 @@
 # Vehicle Speed Estimation
+----- [DEMO VIDEO](_data/run/seattle11.mp4) ------
 
-<br>
-<hr />
-https://user-images.githubusercontent.com/53305399/190944660-a3bd6704-dbd1-4c5e-8bab-5bea9a422de5.mp4?width=200&height=200
-<hr />
-<br />
+https://user-images.githubusercontent.com/53305399/190944660-a3bd6704-dbd1-4c5e-8bab-5bea9a422de5.mp4
+
 
 ## Getting Started
 
